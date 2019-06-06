@@ -1,4 +1,4 @@
-# ubuntu-16-nginx-passenger
+# debian-9-nginx-passenger
 
 A Docker image for Phusion Passenger and nginx. Intended for eventual deployment under OpenShift.
 
@@ -6,4 +6,3 @@ A Docker image for Phusion Passenger and nginx. Intended for eventual deployment
 * Nginx is a high performance HTTP server: https://www.nginx.com/
 * OpenShift is a container application platform based on Docker: https://www.openshift.org/
 * Docker is an software containerization tool: https://www.docker.com/
-
