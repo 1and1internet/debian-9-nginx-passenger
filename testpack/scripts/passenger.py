@@ -87,7 +87,7 @@ class Test1and1Image(Test1and1Common):
 
     def test_passenger_version(self):
         version = self.exec("passenger --version")
-        self.assertEqual("Phusion Passenger 6", version[:19])
+        self.assertEqual("Phusion Passenger(R) 6", version[:22])
 
     def test_docker_logs(self):
         expected_log_lines = [
